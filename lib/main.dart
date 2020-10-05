@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
               controller: myController,
             ),
             SizedBox(
-              height: 10,
+              height: 30,
             ),
             RaisedButton(
               onPressed: _playVoice,
@@ -106,6 +106,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     fontWeight: FontWeight.bold,
                   )),
             ),
+            SizedBox(
+              height: 10,
+            ),
+            Icon(
+              Icons.music_video,
+              size: 50,
+            )
           ],
         ),
       ),
